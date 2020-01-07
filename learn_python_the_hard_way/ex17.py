@@ -18,4 +18,4 @@ from os.path import exists
 
 # One line version : -->> (OwO)
 
-open(argv[2]).write(open(argv[1]).read())
+if input(f'{argv[2]} will be erased, continue?'): open(argv[2], 'w').write(open(argv[1]).read())
