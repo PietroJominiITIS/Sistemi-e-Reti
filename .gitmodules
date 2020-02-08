@@ -1,0 +1,3 @@
+[submodule "netcalc"]
+	path = netcalc
+	url = https://gitlab.com/PietroJomini/netcalc
